@@ -1,20 +1,45 @@
+@font-face {
+    font-family: 'RoxboroughCF';
+    src: url('RoxboroughCF.woff2') format('woff2'),
+        url('RoxboroughCF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    padding-top: 50px;
     background-color: #f4f4f4;
     line-height: 1.6;
 }
 
 header {
-    background-color: #d32f2f;
+    background-color: #9b4922;
     color: #fff;
     padding: 1em 0;
     text-align: center;
 }
 
 .logo img {
-    max-width: 150px;
+    width: 100%;
+}
+
+#title h1 {
+    font-family: 'RoxboroughCF', sans-serif;
+    font-size: 153px;
+    font-weight: 400;
+    font-style: normal;
+    color: #efe7dd
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 nav ul {
